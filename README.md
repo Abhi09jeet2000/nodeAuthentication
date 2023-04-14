@@ -3,11 +3,16 @@
 # Endpoints 
 #Base Url - http://localhost:8080
 
-#1. "Post-METHOD" : '/auth/register' -> for registering the user.  
-#2. "Post-METHOD" : '/auth/login' -> for Signing in.
+#1. "Post-METHOD" : '/auth/register' -> for registering the user.
+
+#2. "Post-METHOD" : '/auth/login' -> for Signing in. 
+
 #3. "Get-METHOD" : '/users' -> for getting all users ~{works only if user is authenticated}.
+
 #4. "Delete-METHOD" :  '/users/:id'-> for delete account ~{works only if user authenticated and is owner of that account }.
+
 #5. "Patch-METHOD" : '/users/:id'-> for updating details of account ~{works only if user authenticated and is owner of that account}.
+
 
 # Mongo Db Collection Example
 
